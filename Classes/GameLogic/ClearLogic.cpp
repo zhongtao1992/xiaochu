@@ -15,14 +15,14 @@ ClearLogic::ClearLogic()
 void ClearLogic::clearBlocks(/*int Block[i][j]*/)
 {
 	//向上移动。即列位置不变，行数减一。如I[2][0]位置的元素向上移动后为I[1][0]
-	if (Block[i][j])
-	{
-	}
+// 	if (Block[i][j])
+// 	{
+// 	}
 }
 
-bool ClearLogic::sameInUp(int Block[i][j])
-{
-	if (Block[i][j])
-	{
-	}
-}
+// bool ClearLogic::sameInUp(int Block[i][j])
+// {
+// 	if (Block[i][j])
+// 	{
+// 	}
+// }

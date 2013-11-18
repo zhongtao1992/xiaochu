@@ -30,6 +30,12 @@
     <ClCompile Include="..\Classes\GameLogic\ClearLogic.cpp">
       <Filter>Classes\GameLogic</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\GameUI\GameBoard.cpp">
+      <Filter>Classes\GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameUI\GameScene.cpp">
+      <Filter>Classes\GameUI</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -46,6 +52,12 @@
     </ClInclude>
     <ClInclude Include="..\Classes\GlobalData\GameData.h">
       <Filter>Classes\GlobalData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameUI\GameBoard.h">
+      <Filter>Classes\GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameUI\GameScene.h">
+      <Filter>Classes\GameUI</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

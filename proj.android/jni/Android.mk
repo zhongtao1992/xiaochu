@@ -8,9 +8,16 @@ LOCAL_MODULE_FILENAME := libcocos2dcpp
 
 LOCAL_SRC_FILES := hellocpp/main.cpp \
                    ../../Classes/AppDelegate.cpp \
+                   ../../Classes/GameLogic/ClearLogic.cpp \
+                   ../../Classes/GameUI/GameBoard.cpp \
+                   ../../Classes/GameUI/GameScene.cpp \
                    ../../Classes/HelloWorldScene.cpp
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes
+LOCAL_C_INCLUDES += $(LOCAL_PATH)/../../Classes
+LOCAL_C_INCLUDES += $(LOCAL_PATH)/../../Classes/GameLogic
+LOCAL_C_INCLUDES += $(LOCAL_PATH)/../../Classes/GameUI
+LOCAL_C_INCLUDES += $(LOCAL_PATH)/../../Classes/GlobalData
 
 LOCAL_WHOLE_STATIC_LIBRARIES += cocos2dx_static
 LOCAL_WHOLE_STATIC_LIBRARIES += cocosdenshion_static

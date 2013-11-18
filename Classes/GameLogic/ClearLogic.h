@@ -37,7 +37,7 @@
 
 #ifndef __Clear__ClearLogic__
 #define __Clear__ClearLogic__
-
+#include "cocos2d.h"
 #include "GlobalData/GameData.h"
 
 class ClearLogic
@@ -50,9 +50,9 @@ protected:
 	void clearBlocks(/*int Block[i][j]*/);
 
 	//四个方向的判断
-	bool sameInUp(int Block[i][j]);
-	bool sameInDown(int Block[i][j]);
-	bool sameInRight(int Block[i][j]);
-	bool sameInLeft(int Block[i][j]);
+// 	bool sameInUp(int Block[i][j]);
+// 	bool sameInDown(int Block[i][j]);
+// 	bool sameInRight(int Block[i][j]);
+// 	bool sameInLeft(int Block[i][j]);
 };
 #endif
